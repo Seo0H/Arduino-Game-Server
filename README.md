@@ -12,6 +12,8 @@
 ### 🛠️ 사용 툴 / 언어
 
     ⚬ Arduino IDE
+    ⚬ Ubuntu
+    ⚬ MariaDB
     ⚬ C++
     ⚬ Arduino (UNO Board, LCD 16x4, 8x8 Matrix, PS2 Joy Stick, Wifi module, Bluetooth module, Power supply module)
     ⚬ Raspberry Pi
@@ -21,6 +23,7 @@
     ⚬ <MsTimer2.h>
     ⚬ <SoftwareSerial.h>
     ⚬ <LedControl.h>
+    ⚬ <WiFiEsp.h>
     ⚬ <Wire.h>
     ⚬ <LiquidCrystal_I2C.h>
 
