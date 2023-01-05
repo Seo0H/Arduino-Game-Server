@@ -2,7 +2,7 @@
 
 > 라즈베리파이와 아두이노의 소켓 통신을 통해 구현한 장애물 피하기 게임 (22.12.23 ~ 22.12.28)
 
-![example_image](./image/example_image.png)  
+![example_image](./image/example_image.png)
 <br/>
 
 ### 🎞️ <a href="https://vimeo.com/786498345">시연영상</a>
@@ -17,6 +17,7 @@
     ⚬ C++
     ⚬ Arduino (UNO Board, LCD 16x4, 8x8 Matrix, PS2 Joy Stick, Wifi module, Bluetooth module, Power supply module)
     ⚬ Raspberry Pi
+    ⚬ React
 
 ### 📘 사용 라이브러리
 
@@ -89,6 +90,26 @@
 </div>
 </details>
 
+<details>
+<summary style="Font-Weight:300">&nbsp;6. Web</summary>
+<div markdown="1">
+
+✨Front-end : React
+
+    ⚬ 게임 등수 확인 및 닉네임 변경
+    ⚬ React의 useEffect 감지 기능을 이용해 DB에 새로운 값이 들어오면 Table 부분만 새로고침 되도록 구현.
+    ⚬ React Table 라이브러리와 Modal 창을 이용해 등수 및 팝업 구현.
+
+
+<img src="image/web (1).png">
+<img src="image/web (2).png">
+<img src="image/web (3).png">
+
+</pre>
+</div>
+</details>
+
+
 ### 💡 발전 방향
 
     ⚬ 난이도를 선택할 수 있는 기능 (속도, 장애물 개수 조절)
@@ -96,9 +117,12 @@
 
 ### 👩🏻‍🏫 이전 아두이노 게임
 
-    ⚬ https://github.com/dudwn1814/arduinoGame 
+    ⚬ https://github.com/dudwn1814/arduinoGame
 
 ### 👩🏻‍💻 개발자
 
     ⚬ 안영주 - https://github.com/dudwn1814
     ⚬ 황서영 - https://github.com/Seo0H
+
+
+
