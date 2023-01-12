@@ -1,0 +1,150 @@
+@import "font.css";
+@import "reset.css";
+
+.Modal {
+  margin: auto;
+  text-align: -webkit-center;
+}
+
+.flex-col-containor {
+  height: 528px;
+  width: 986px;
+  border-radius: 0px;
+  margin-top: 100px;
+  padding: 163px 169px auto;
+  background: #e8e8e8;
+
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalBody {
+  padding: auto 90px;
+  width: 986px;
+  height: 528px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 35px;
+  background: #e8e8e8;
+}
+
+.modal-text {
+  display: inline-block;
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 37px;
+
+  /* identical to box height */
+  align-items: center;
+  text-align: center;
+  padding-bottom: 12px;
+
+  color: #00979c;
+}
+
+.recode-input,
+.nickname-input {
+  width: 344px;
+  height: 106px;
+
+  border: none;
+  outline: none;
+
+  font-family: "Pretandard";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 67px;
+  text-align: center;
+  padding-top: 1px;
+  margin: 1px auto;
+  color: #2d2d2d;
+
+  background: #ffffff;
+}
+
+.Overlay {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.regist-btn {
+  width: 223px;
+  height: 59.27px;
+  left: 849px;
+  top: 805.37px;
+  border: 0;
+
+  background: #00979c;
+  border-radius: 111.5px;
+
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* ---------------search modal-------------- */
+
+.Modal-search {
+  width: 516px;
+  height: 779px;
+  left: 702px;
+  top: 407px;
+
+  margin: auto;
+  text-align: -webkit-center;
+
+  background: #e8e8e8;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input.input-box {
+  margin: 30px 10px;
+  padding: 18px 20px;
+  width: 200px;
+  border: 1px solid #d1d1d1;
+
+  background: #f1f1f1;
+  border-radius: 80.4014px;
+}
+
+.serch-btn {
+  cursor: pointer;
+  padding: 9px 16px;
+  gap: 10px;
+  border: none;
+
+  width: 105px;
+  height: 51px;
+
+  background: #00979c;
+  border-radius: 80.4014px;
+
+  font-family: "PP-Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.6327px;
+  line-height: 23px;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}

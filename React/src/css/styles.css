@@ -1,0 +1,229 @@
+@import "reset.css";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-std.css");
+@import "font.css";
+
+body {
+  font-family: "Pretendard";
+  background-image: url(/public/background.png);
+  background-color: #e8e8e8;
+}
+
+.joystick {
+  position: absolute;
+  display: inline-block;
+  right: 197px;
+  top: 100.15px;
+}
+
+.led{
+  position: absolute;
+  display: inline-block;
+  right: -3px;
+    top: 1011.1500000000001px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table {
+  position: relative;
+  flex: 1;
+}
+
+.table-background {
+  margin: 210px auto;
+  height: 1186px;
+  background-color: #ffffff;
+}
+
+tr > th:nth-child(1) {
+  width: 180px;
+}
+
+tr > th:nth-child(2) {
+  width: 270px;
+}
+
+tr > th:nth-child(3) {
+  width: 356px;
+}
+
+tr > th:nth-child(4) {
+  width: 356px;
+}
+
+th{
+  color: #ffffff !important;
+}
+
+th,
+td {
+  margin: 0;
+  padding: 20px;
+
+  background: #00979c;
+
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  align-items: center;
+
+  display: table-cell;
+  text-align: center;
+
+  cursor: auto;
+
+  color: #00979c;
+}
+
+tbody {
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #00979c;
+}
+
+.table-th-1 {
+  width: 180px;
+}
+
+.table-th-2 {
+  width: 270px;
+}
+
+td {
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-bottom: 1px solid #00979c;
+}
+
+body {
+  font-family: "Pretendard";
+}
+
+.body-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-header {
+  display: flex;
+  width: 696px;
+  flex-direction: column;
+}
+
+.side-header-containor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 77px;
+
+  position: absolute;
+  width: 399px;
+  height: 512px;
+  left: 148px;
+  top: 210px;
+}
+
+.title-container {
+  /* Auto layout */
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 18px;
+
+  width: 399px;
+  height: 278px;
+}
+
+.title {
+  width: 399px;
+  height: 224px;
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 106.505px;
+  line-height: 112px;
+  align-items: center;
+  color: #00979c;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title-detail {
+  /* Made by SeoYoungJoo */
+  width: 368px;
+  height: 36px;
+
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34.0533px;
+  line-height: 36px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #00979c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.round-button {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  width: 301px;
+  height: 157px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.btn {
+  /* Your score */
+  font-family: "PP Mori";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34.0533px;
+  line-height: 36px;
+
+  /* identical to box height */
+  flex: 1;
+  align-items: center;
+  color: #ffffff;
+
+  width: 301px;
+  height: 71px;
+  left: 0px;
+  top: 0px;
+  border-radius: 150.5px;
+  background: #00979c;
+  border: none;
+}
+
+.about {
+  background: #999999;
+}
